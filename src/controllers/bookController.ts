@@ -120,6 +120,7 @@ export const updateBook = (req: Request, res: Response): void => {
 	book.authorId = parsedAuthorId;
 
 	res.status(200).json(book);
+    
 };
 
 export const deleteBook = (req: Request, res: Response): void => {
